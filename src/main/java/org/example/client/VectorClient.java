@@ -12,7 +12,7 @@ public class VectorClient {
 
     public static void main(String[] args) {
         String host = args.length > 0 ? args[0] : "localhost";
-        int port = args.length > 1 ? Integer.parseInt(args[1]) : 8080;
+        int port = args.length > 1 ? Integer.parseInt(args[1]) : 5000;
 
         List<double[]> vectors = List.of(
                 new double[]{1.0, 2.0, 3.0},
